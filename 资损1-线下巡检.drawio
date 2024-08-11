@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="_o-NHqm5kNj5wMjtTiSq">
-    <mxGraphModel dx="1244" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,9 +56,6 @@
         </mxCell>
         <mxCell id="Ws8Qmr2RkA3Kc9muPqMI-14" value="结果比较" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="70" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ws8Qmr2RkA3Kc9muPqMI-15" value="预发分支" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="343" y="180" width="67" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
