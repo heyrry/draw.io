@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="第 1 页" id="dMrdqhf6_QR0lIxlp7QM">
+    <mxGraphModel dx="250" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-360" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-600" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f6LxnFSBQ8j8LGYdEh3--27" value="特征值采样日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="850" y="-550" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1012.5" y="-520" as="sourcePoint" />
+            <mxPoint x="1087.5" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-3" value="tt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-4" value="ODPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-550" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VX3rwLZmTcrIT6lRmgwz-5" target="VX3rwLZmTcrIT6lRmgwz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-5" value="定时拉取数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-584" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="-520" as="sourcePoint" />
+            <mxPoint x="1260" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-7" value="定时拉取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VX3rwLZmTcrIT6lRmgwz-9" target="VX3rwLZmTcrIT6lRmgwz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-9" value="数仓1&lt;div&gt;（流量特征值数仓）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-340" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-10" value="数仓2&lt;div&gt;（特征用例库数仓）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-250" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-13" value="onetouch-logistics-operation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="-525" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-14" value="特征值清洗" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-19" value="数仓(爱迪生)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="-310" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="-420" as="sourcePoint" />
+            <mxPoint x="1480" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VX3rwLZmTcrIT6lRmgwz-22" value="特征值归类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="-280" width="80" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
