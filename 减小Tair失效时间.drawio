@@ -20,8 +20,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="345" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="345" />
-              <mxPoint x="490" y="910" />
+              <mxPoint x="570" y="345" />
+              <mxPoint x="570" y="910" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -48,13 +48,8 @@
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-2" target="Wo2rvVXjl2BgDi9NEdft-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wo2rvVXjl2BgDi9NEdft-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-2" target="Wo2rvVXjl2BgDi9NEdft-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="420" y="575" />
-              <mxPoint x="420" y="790" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Wo2rvVXjl2BgDi9NEdft-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-2" target="Wo2rvVXjl2BgDi9NEdft-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-2" value="是否为空值&lt;div&gt;（null or &quot;[]&quot;）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="215" y="540" width="150" height="70" as="geometry" />
@@ -62,23 +57,29 @@
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-4" target="Wo2rvVXjl2BgDi9NEdft-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wo2rvVXjl2BgDi9NEdft-4" value="获取缓存过期时间&lt;div&gt;(nullResetExpiredTime是否有值)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="650" width="140" height="60" as="geometry" />
+        <mxCell id="Wo2rvVXjl2BgDi9NEdft-4" value="&lt;div&gt;缓存过期时间&lt;/div&gt;&lt;div&gt;nullResetExpiredTime有值则取&lt;span style=&quot;background-color: initial;&quot;&gt;nullResetExpiredTime ，否则取&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;expiredTime，&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="650" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-6" target="Wo2rvVXjl2BgDi9NEdft-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-6" value="Tair设置key过期时间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="760" width="140" height="60" as="geometry" />
+          <mxGeometry x="220" y="780" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="880" width="140" height="60" as="geometry" />
+          <mxGeometry x="220" y="890" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-12" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="365" y="550" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Wo2rvVXjl2BgDi9NEdft-13" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2rvVXjl2BgDi9NEdft-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2rvVXjl2BgDi9NEdft-15" target="Wo2rvVXjl2BgDi9NEdft-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2rvVXjl2BgDi9NEdft-15" value="缓存过期时间&lt;div&gt;是expiredTime&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="650" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
