@@ -131,6 +131,9 @@
         <mxCell id="a6iSvklIxvKC9HmYW-_m-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a6iSvklIxvKC9HmYW-_m-1" target="cltNmSNRFCDmhToncjLq-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="j3raBT1PZoLHUKZPOAPg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a6iSvklIxvKC9HmYW-_m-1" target="j3raBT1PZoLHUKZPOAPg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a6iSvklIxvKC9HmYW-_m-1" value="&lt;pre&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;是否存在归类缓存&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="248.5" y="1500" width="183" height="90" as="geometry" />
         </mxCell>
@@ -154,6 +157,15 @@
         </mxCell>
         <mxCell id="j3raBT1PZoLHUKZPOAPg-10" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j3raBT1PZoLHUKZPOAPg-12" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j3raBT1PZoLHUKZPOAPg-13" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j3raBT1PZoLHUKZPOAPg-16" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1520" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
