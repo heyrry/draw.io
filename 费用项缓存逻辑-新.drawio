@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-25" value="命中灰度逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="280" y="2610" width="150" height="50" as="geometry" />
+          <mxGeometry x="280" y="2640" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -126,20 +126,14 @@
         <mxCell id="-BEqLnnBPzUVYCpvK7on-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cltNmSNRFCDmhToncjLq-68" target="-BEqLnnBPzUVYCpvK7on-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-BEqLnnBPzUVYCpvK7on-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cltNmSNRFCDmhToncjLq-68" target="cltNmSNRFCDmhToncjLq-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="2355" />
-              <mxPoint x="220" y="2570" />
-              <mxPoint x="355" y="2570" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cltNmSNRFCDmhToncjLq-68" target="-BEqLnnBPzUVYCpvK7on-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-68" value="&lt;pre&gt;&lt;pre&gt;是否品牌化？&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;verticalAlign=middle;horizontal=1;spacing=0;fontSize=11;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="246.75" y="2310" width="216.5" height="90" as="geometry" />
+          <mxGeometry x="246.75" y="2330" width="216.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-71" value="未命中灰度逻辑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="530" y="2590" width="150" height="50" as="geometry" />
+          <mxGeometry x="530" y="2600" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-75" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="1630" width="60" height="30" as="geometry" />
@@ -148,7 +142,7 @@
           <mxGeometry x="470" y="1870" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-80" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="2320" width="60" height="30" as="geometry" />
+          <mxGeometry x="190" y="2280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cltNmSNRFCDmhToncjLq-82" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="1710" width="60" height="30" as="geometry" />
@@ -187,7 +181,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-BEqLnnBPzUVYCpvK7on-2" value="&lt;pre&gt;&lt;pre&gt;是否在品牌化灰度白名单？&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;verticalAlign=middle;horizontal=1;spacing=0;fontSize=11;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="246.75" y="2450" width="216.5" height="90" as="geometry" />
+          <mxGeometry x="246.75" y="2500" width="216.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-7" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-8" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-BEqLnnBPzUVYCpvK7on-9" target="-BEqLnnBPzUVYCpvK7on-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-9" value="从配置解析skuCode白名单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="44" y="2400" width="146" height="55.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-BEqLnnBPzUVYCpvK7on-10" value="&lt;pre&gt;&lt;pre&gt;&lt;font&gt;白名单不为空&amp;amp;&amp;amp;白名单包含ALL&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font&gt;或者&lt;/font&gt;入参skuCode&lt;/pre&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=middle;horizontal=1;spacing=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="8.75" y="2500" width="216.5" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
